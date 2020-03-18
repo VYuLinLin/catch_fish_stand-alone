@@ -1,0 +1,244 @@
+{
+  "fish_red": {
+    "level": 1,
+    "minSpeed": 20,
+    "animates": {
+      "run": {
+        "pre": "fish_red_run",
+        "start": 0,
+        "end": 3
+      },
+      "dead": {
+        "pre": "fish_red_dead",
+        "start": 0,
+        "end": 3
+      }
+    },
+    "collision": {
+      "x": 64,
+      "y": 64
+    },
+    "width": 100,
+    "height": 100
+  },
+  "fish_bigred": {
+    "level": 2,
+    "minSpeed": 15,
+    "animates": {
+      "run": {
+        "pre": "fish_bigred_run",
+        "start": 0,
+        "end": 3
+      },
+      "dead": {
+        "pre": "fish_bigred_dead",
+        "start": 0,
+        "end": 3
+      }
+    },
+    "collision": {
+      "x": 64,
+      "y": 64
+    },
+    "width": 100,
+    "height": 100
+  },
+  "fish_denglongyu": {
+    "level": 3,
+    "minSpeed": 18,
+    "animates": {
+      "run": {
+        "pre": "fish_denglongyu_run",
+        "start": 0,
+        "end": 7
+      },
+      "dead": {
+        "pre": "fish_denglongyu_dead",
+        "start": 0,
+        "end": 3
+      }
+    },
+    "collision": {
+      "x": 64,
+      "y": 64
+    },
+    "width": 168,
+    "height": 121
+  },
+  "fish_yellow": {
+    "level": 4,
+    "minSpeed": 20,
+    "animates": {
+      "run": {
+        "pre": "fish_yellow_run",
+        "start": 0,
+        "end": 3
+      },
+      "dead": {
+        "pre": "fish_yellow_dead",
+        "start": 0,
+        "end": 3
+      }
+    },
+    "collision": {
+      "x": 64,
+      "y": 64
+    },
+    "width": 52,
+    "height": 34
+  },
+  "fish_gui": {
+    "level": 5,
+    "minSpeed": 20,
+    "animates": {
+      "run": {
+        "pre": "fish_gui_run",
+        "start": 0,
+        "end": 5
+      },
+      "dead": {
+        "pre": "fish_gui_dead",
+        "start": 0,
+        "end": 3
+      }
+    },
+    "collision": {
+      "x": 64,
+      "y": 64
+    },
+    "width": 161,
+    "height": 151
+  },
+  "fish_fuyi": {
+    "level": 6,
+    "minSpeed": 18,
+    "animates": {
+      "run": {
+        "pre": "fish_fuyi_run",
+        "start": 0,
+        "end": 7
+      },
+      "dead": {
+        "pre": "fish_fuyi_dead",
+        "start": 0,
+        "end": 3
+      }
+    },
+    "collision": {
+      "x": 64,
+      "y": 64
+    },
+    "width": 150,
+    "height": 133
+  },
+  "fish_hailuoshuimu": {
+    "level": 6,
+    "minSpeed": 20,
+    "animates": {
+      "run": {
+        "pre": "fish_hailuoshuimu_run",
+        "start": 0,
+        "end": 7
+      },
+      "dead": {
+        "pre": "fish_hailuoshuimu_dead",
+        "start": 0,
+        "end": 3
+      }
+    },
+    "collision": {
+      "x": 64,
+      "y": 64
+    },
+    "width": 96,
+    "height": 76
+  },
+  "fish_hetun": {
+    "level": 7,
+    "minSpeed": 20,
+    "animates": {
+      "run": {
+        "pre": "fish_hetun_run",
+        "start": 0,
+        "end": 3
+      },
+      "dead": {
+        "pre": "fish_hetun_dead",
+        "start": 0,
+        "end": 3
+      }
+    },
+    "collision": {
+      "x": 64,
+      "y": 64
+    },
+    "width": 90,
+    "height": 88
+  },
+  "fish_shuimu": {
+    "level": 8,
+    "minSpeed": 20,
+    "animates": {
+      "run": {
+        "pre": "fish_shuimu_run",
+        "start": 0,
+        "end": 5
+      },
+      "dead": {
+        "pre": "fish_shuimu_dead",
+        "start": 0,
+        "end": 3
+      }
+    },
+    "collision": {
+      "x": 64,
+      "y": 64
+    },
+    "width": 83,
+    "height": 144
+  },
+  "fish_shayu": {
+    "level": 9,
+    "minSpeed": 20,
+    "animates": {
+      "run": {
+        "pre": "fish_shayu_run",
+        "start": 0,
+        "end": 5
+      },
+      "dead": {
+        "pre": "fish_shayu_dead",
+        "start": 0,
+        "end": 3
+      }
+    },
+    "collision": {
+      "x": 64,
+      "y": 64
+    },
+    "width": 495,
+    "height": 260
+  },
+  "fish_jinshayu": {
+    "level": 10,
+    "minSpeed": 20,
+    "animates": {
+      "run": {
+        "pre": "fish_jinshayu_run",
+        "start": 0,
+        "end": 7
+      },
+      "dead": {
+        "pre": "fish_jinshayu_dead",
+        "start": 0,
+        "end": 3
+      }
+    },
+    "collision": {
+      "x": 64,
+      "y": 64
+    },
+    "width": 510,
+    "height": 220
+  }
+}

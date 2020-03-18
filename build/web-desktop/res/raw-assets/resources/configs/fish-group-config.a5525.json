@@ -1,0 +1,84 @@
+{
+  "fish_group_1000": {
+    "fish_type": ["fish_red"],
+    "array": [
+      {"x": 0,"y": 0}
+    ]
+  },
+  "fish_group_1001": {
+    "fish_type": ["fish_fuyi"],
+    "array": [
+      {"x": 1,"y": -1}
+    ]
+  },
+  "fish_group_1002": {
+    "fish_type": ["fish_denglongyu"],
+    "array": [
+      {"x": 0,"y": 0}
+    ]
+  },
+  "fish_group_1003": {
+    "fish_type": ["fish_gui"],
+    "array": [
+      {"x": 0,"y": 0}
+    ]
+  },
+  "fish_group_1004": {
+    "fish_type": ["fish_hailuoshuimu"],
+    "array": [
+      {"x": 1,"y": 1}
+    ]
+  },
+  "fish_group_1005": {
+    "fish_type": ["fish_shuimu"],
+    "array": [
+      {"x": 1,"y": 1},
+      {"x": 1,"y": 1},
+      {"x": 1,"y": 1}
+    ]
+  },
+  "fish_group_1006": {
+    "fish_type": ["fish_hetun"],
+    "array": [
+      {"x": 1,"y": 1},
+      {"x": 1,"y": 1}
+    ]
+  },
+  "fish_group_1007": {
+    "fish_type": ["fish_bigred"],
+    "array": [
+      {"x": 0, "y": 0},
+      {"x": -1, "y": 0},
+      {"x": 1, "y": 0}
+    ]
+  },
+  "fish_group_1008": {
+    "fish_type": ["fish_bigred"],
+    "array": [
+      {"x": 0, "y": 0},
+      {"x": -1, "y": -1},
+      {"x": 1, "y": -1}
+    ]
+  },
+  "fish_group_1009": {
+    "fish_type": ["fish_yellow"],
+    "array": [
+      {"x": 0, "y": 0},
+      {"x": 0, "y": -1},
+      {"x": 0, "y": -2},
+      {"x": 0, "y": -3}
+    ]
+  },
+  "fish_group_1010": {
+    "fish_type": ["fish_jinshayu"],
+    "array": [
+      {"x": 1,"y": 1}
+    ]
+  },
+  "fish_group_1011": {
+    "fish_type": ["fish_shayu"],
+    "array": [
+      {"x": 1,"y": 1}
+    ]
+  }
+}

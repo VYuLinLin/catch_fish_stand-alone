@@ -26,6 +26,7 @@ cc.Class({
   initBulletWithData: function (angle, startPos) {
     this._startPos = startPos;
     this.node.position = startPos;
+    // this.node.position = this.node.parent.convertToWorldSpace(startPos);
     this.initActionData(angle * Math.PI / 180, 1000);
   },
 

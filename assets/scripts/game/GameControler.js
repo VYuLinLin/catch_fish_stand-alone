@@ -169,17 +169,18 @@ cc.Class({
 
   getCannonConfig: function (level) {
     let cannonConfig = this[defines.configMap.cannonConfig];
-    let groupIdList = Object.keys(cannonConfig);
-    if (level >= groupIdList.length) {
-      level = groupIdList.length - 1;
-    }
+    return cannonConfig['cannon_' + level]
+    // let groupIdList = Object.keys(cannonConfig);
+    // if (level >= groupIdList.length) {
+    //   level = groupIdList.length - 1;
+    // }
 
-    if (level < 0) {
-      level = 0;
-    }
+    // if (level < 0) {
+    //   level = 0;
+    // }
 
-    let data = cannonConfig[groupIdList[level]];
-    return [data, level];
+    // let data = cannonConfig[groupIdList[level-1]];
+    // return [data, level];
   }
 });
 

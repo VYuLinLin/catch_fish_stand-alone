@@ -41,7 +41,6 @@ cc.Class({
         let spriteFrameList = [];
         for (let i = start ; i < (end + 1) ; i ++){
             let str = pre + "_" + i;
-            cc.log('str = ' + str);
             let spriteFrame = this.spriteAtlas.getSpriteFrame(str);
             spriteFrameList.push(spriteFrame);
         }

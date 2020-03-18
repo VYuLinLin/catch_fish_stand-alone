@@ -13,6 +13,10 @@ cc.Class({
       default: null,
       type: cc.SpriteAtlas
     },
+    winGold: {
+      default: null,
+      type: cc.Prefab
+    },
     _lastFishPos: {
       default: cc.Vec2(0, 0),
     }
@@ -32,8 +36,9 @@ cc.Class({
 
     let clicpNameList = ['run', 'dead'];
     let animateConfig = config.animates;
-
+    this._fishData = config
     this._level = config.level * 10 // 鱼的等级
+    this._fishIntegral = this._level
 
     for (let i = 0; i < clicpNameList.length; i++) {
       const anim = animateConfig[clicpNameList[i]]
@@ -70,7 +75,6 @@ cc.Class({
     let spriteFrameList = [];
     for (let i = start; i < (end + 1); i++) {
       let str = pre + "_" + i;
-      // cc.log('str = ' + str);
       let spriteFrame = this.spriteAtlas.getSpriteFrame(str);
       spriteFrameList.push(spriteFrame);
     }
@@ -141,15 +145,21 @@ cc.Class({
   onCollisionEnter(bulletNode, fishNode) {
     this._level -= bulletNode.node._cannonLevel * 2
     if (this._level < 1) {
+      // 销毁碰撞组件
+      this.node.getComponent(cc.BoxCollider).destroy()
+      // 金币提示
+      const winGold = cc.instantiate(this.winGold)
+      winGold.getComponent('winGold').showWinGold(this._fishIntegral)
+      winGold.parent = this.node;
       this.setState(FishState.Dead);
     }
     // cc.log("fish enter collision", bulletNode, fishNode)
   },
   onCollisionStay: function (other, self) {
-    console.log('on collision stay');
+    // console.log('on collision stay');
   },
   onCollisionExit: function (other, self) {
-    console.log('on collision exit');
+    // console.log('on collision exit');
   },
 
 });
