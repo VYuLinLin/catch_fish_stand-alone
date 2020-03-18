@@ -22,6 +22,7 @@ cc.Class({
     }
   },
   onLoad() {
+    this.node.rotation = -this.node.parent.rotation // 使金币正向显示
     const actionTo = cc.moveTo(0.5, cc.v2(80, 80))
     setTimeout(() => {
       this.node.runAction(actionTo)
